@@ -206,6 +206,49 @@ header{
 	
 }
 
+#eighth{
+	background: url(../img/form-bg.png) no-repeat center top / cover;
+	background-position: 10% 48%;
+
+	> .container{
+		padding-top: 115px;
+		padding-bottom: 155px;
+
+		.form{
+			text-align: center;
+			width: 70%;
+			margin: 0 auto;
+
+			h4{
+				font-family: GothamRounded Medium; 
+				font-size: 15px;
+				color: #fff;
+				text-transform: uppercase;
+				letter-spacing: 3px;
+				margin-top: 20px;
+				margin-bottom: 45px;
+			}
+
+			input[type=text]{
+				font-size: 15px;
+				font-family: GothamRounded Medium; 
+				background-color: transparent;
+				padding: 30px 25px;
+				color: #fff;
+			}
+
+			input[type=submit]{
+				font-size: 15px;
+				color: white;
+				background: #3dc9b3;
+				border-radius: 2px;
+				font-family: GothamRounded Medium; 
+				padding: 30px 25px;
+			}
+		}
+	}
+}
+
 #ninth{
 	background: #f3f5f8;
 	> .container{
@@ -250,6 +293,47 @@ header{
 			p{
 				font-family: GothamRounded Medium;
 				color: #8c9398;
+			}
+		}
+	}
+}
+
+footer{
+	background: #242830;
+	
+	> .container{
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		.info{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			a{
+				color: #a1a9b0;
+			}
+				
+
+			.terms{
+				font-family: GothamRounded Book;
+				color: #f5f5f5;
+				
+			
+			}
+
+			.designed{
+				color: #f5f5f5;
+				font-family: GothamRounded Book;
+
+				span:first-child{
+					color: #a1a9b0;
+				}
+				
+				span:last-child{
+					color: #a1a9b0;
+					font-family: GothamRounded MediumItalic;
+				}				
 			}
 		}
 	}
