@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: 1px solid red; }
 
 li {
-  list-style: none;
-  width: inherit; }
+  list-style: none; }
 
 a {
   text-decoration: none; }
@@ -150,6 +150,11 @@ header {
     text-align: center;
     padding-top: 125px;
     padding-bottom: 110px; }
+  #ninth .icons {
+    margin-top: 100px; }
+  #ninth .mid {
+    margin-right: 20px;
+    margin-left: 20px; }
   #ninth .contacts {
     display: flex;
     flex-direction: row;
