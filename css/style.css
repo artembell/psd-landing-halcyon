@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+li {
+  list-style: none;
+  width: inherit; }
+
+a {
+  text-decoration: none; }
+
+@font-face {
+  font-family: 'GothamRounded Book';
+  src: url(../fonts/GothamRounded-Book.otf); }
+
+@font-face {
+  font-family: 'GothamRounded MediumItalic';
+  src: url(../fonts/GothamRounded-MediumItalic.otf); }
+
+@font-face {
+  font-family: 'GothamRounded Medium';
+  src: url(../fonts/GothamRounded-Medium.otf); }
+
+.container {
+  width: 71%;
+  margin: 0 auto; }
+
+header {
+  background: url(../img/bg.png) no-repeat center top/cover;
+  height: 100vh; }
+  header > .container {
+    padding-top: 60px; }
+  header .navbar li {
+    text-align: right; }
+  header .main {
+    margin-top: 170px;
+    text-align: center; }
+    header .main > h1 {
+      font-size: 40px;
+      font-family: GothamRounded Book;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      color: #333333;
+      margin-bottom: 30px; }
+    header .main .days {
+      color: #999999; }
+    header .main > p {
+      font-size: 15px;
+      font-family: GothamRounded Book;
+      color: #999999;
+      margin-bottom: 95px;
+      letter-spacing: 3px; }
+    header .main .for {
+      font-family: GothamRounded MediumItalic; }
+    header .main > a {
+      font-size: 15px;
+      color: #fff;
+      font-family: GothamRounded Medium;
+      text-transform: uppercase;
+      padding: 25px 40px;
+      background: #33cccc;
+      border-radius: 5px;
+      letter-spacing: 3px;
+      box-shadow: 0px -3px 0px #339999 inset;
+      transition: 0.3s; }
+    header .main > a:hover {
+      background: #339999; }
+
+.title {
+  width: 70%;
+  margin: 0 auto; }
+  .title h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: GothamRounded Medium;
+    color: #333333; }
+  .title p {
+    font-size: 14px;
+    font-family: GothamRounded Medium;
+    margin: 0 auto;
+    color: #999999;
+    letter-spacing: 1px;
+    line-height: 2em; }
+  .title span {
+    color: #333333; }
+  .title hr {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    background: url(../img/hr-image.png) no-repeat center top;
+    border: none;
+    height: 13px; }
+
+#first {
+  text-align: center;
+  background: #f3f5f8; }
+  #first > .container {
+    padding-top: 105px;
+    padding-bottom: 130px; }
+
+#second {
+  text-align: center;
+  background: #fff; }
+  #second > .container {
+    padding-top: 100px;
+    padding-bottom: 120px; }
+  #second .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #second .services .services_card {
+      width: 30%; }
+      #second .services .services_card h5 {
+        font-size: 15px;
+        font-family: GothamRounded Medium;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        padding-top: 50px;
+        color: #333333; }
+      #second .services .services_card p {
+        font-size: 14px;
+        margin-top: 30px;
+        color: #999999;
+        font-family: GothamRounded Medium;
+        letter-spacing: 1px;
+        line-height: 1.5em; }
