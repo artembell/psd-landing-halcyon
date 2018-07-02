@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid red; }
+  box-sizing: border-box; }
 
 li {
   list-style: none; }
@@ -112,7 +111,7 @@ header {
     justify-content: space-between; }
     #second .services .services_card {
       width: 30%; }
-      #second .services .services_card h5 {
+      #second .services .services_card h4 {
         font-size: 15px;
         font-family: GothamRounded Medium;
         text-transform: uppercase;
@@ -126,6 +125,36 @@ header {
         font-family: GothamRounded Medium;
         letter-spacing: 1px;
         line-height: 1.5em; }
+
+#fifth {
+  background: #fff; }
+  #fifth > .container {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+    #fifth > .container .features {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      #fifth > .container .features .feature_card {
+        width: 30%;
+        text-align: center; }
+        #fifth > .container .features .feature_card img {
+          min-width: 100%;
+          height: 240px; }
+        #fifth > .container .features .feature_card h4 {
+          font-size: 15px;
+          font-family: GothamRounded Medium;
+          text-transform: uppercase;
+          padding-bottom: 20px;
+          padding-top: 40px;
+          color: #333333; }
+        #fifth > .container .features .feature_card p {
+          font-size: 14px;
+          margin-top: 30px;
+          color: #999999;
+          font-family: GothamRounded Medium;
+          letter-spacing: 1px;
+          line-height: 1.5em; }
 
 #sixth {
   background: #333333; }
