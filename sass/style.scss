@@ -184,3 +184,64 @@ header{
 		}
 	}
 }
+
+#sixth{
+	background: #333333;
+	> .container{
+		text-align: center;
+		padding-top: 60px;
+		padding-bottom: 60px;
+
+		a.button{
+			background: #333333;
+			color: white;
+			font-family: GothamRounded Medium;
+			border: 2px solid white;
+			border-radius: 2px;
+			padding: 30px 40px;
+			font-size: 15px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+	}
+	
+}
+
+#ninth{
+	background: #f3f5f8;
+	> .container{
+		text-align: center;
+		padding-top: 125px;
+		padding-bottom: 110px;
+	}
+
+	.contacts{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		.contact_card{
+			background: #fff;
+			width: 30%;
+			padding-top: 30px;
+			padding-bottom: 30px;
+
+			img{
+				margin-bottom: 20px;
+			}
+
+			h4{
+				font-family: GothamRounded Medium;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				color: #3dc9b3;
+				margin-bottom: 30px;
+			}
+
+			p{
+				font-family: GothamRounded Medium;
+				color: #8c9398;
+			}
+		}
+	}
+}

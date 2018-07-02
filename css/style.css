@@ -126,3 +126,47 @@ header {
         font-family: GothamRounded Medium;
         letter-spacing: 1px;
         line-height: 1.5em; }
+
+#sixth {
+  background: #333333; }
+  #sixth > .container {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    #sixth > .container a.button {
+      background: #333333;
+      color: white;
+      font-family: GothamRounded Medium;
+      border: 2px solid white;
+      border-radius: 2px;
+      padding: 30px 40px;
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+
+#ninth {
+  background: #f3f5f8; }
+  #ninth > .container {
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 110px; }
+  #ninth .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #ninth .contacts .contact_card {
+      background: #fff;
+      width: 30%;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+      #ninth .contacts .contact_card img {
+        margin-bottom: 20px; }
+      #ninth .contacts .contact_card h4 {
+        font-family: GothamRounded Medium;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #3dc9b3;
+        margin-bottom: 30px; }
+      #ninth .contacts .contact_card p {
+        font-family: GothamRounded Medium;
+        color: #8c9398; }
