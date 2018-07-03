@@ -25,6 +25,11 @@ a {
   width: 71%;
   margin: 0 auto; }
 
+.bx-wrapper {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
 header {
   background: url(../img/bg.png) no-repeat center top/cover;
   height: 100vh; }
@@ -126,6 +131,42 @@ header {
         letter-spacing: 1px;
         line-height: 1.5em; }
 
+#third {
+  display: flex;
+  flex-direction: row; }
+  #third > div {
+    width: 50%; }
+  #third .iphone {
+    background: url(../img/iphone.png) no-repeat 350px 0px, #f3f5f8; }
+  #third .text {
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 2%;
+    padding-right: 8%; }
+
+#fourth {
+  background: url(../img/bg-problems.png) no-repeat center top/cover;
+  background-position: 50% 40%; }
+  #fourth > .container {
+    padding-top: 80px;
+    padding-bottom: 140px;
+    text-align: center;
+    color: #fff;
+    font-family: GothamRounded Book;
+    text-transform: uppercase; }
+    #fourth > .container h2 {
+      font-size: 40px;
+      font-weight: normal;
+      letter-spacing: 7px;
+      margin-bottom: 25px; }
+    #fourth > .container h3 {
+      font-size: 25px;
+      font-weight: normal;
+      letter-spacing: 7px; }
+    #fourth > .container span {
+      font-family: GothamRounded MediumItalic; }
+
 #fifth {
   background: #fff; }
   #fifth > .container {
@@ -157,13 +198,13 @@ header {
           line-height: 1.5em; }
 
 #sixth {
-  background: #333333; }
+  background: #242830; }
   #sixth > .container {
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px; }
+    padding-top: 90px;
+    padding-bottom: 90px; }
     #sixth > .container a.button {
-      background: #333333;
+      background: #242830;
       color: white;
       font-family: GothamRounded Medium;
       border: 2px solid white;
@@ -172,6 +213,11 @@ header {
       font-size: 15px;
       text-transform: uppercase;
       letter-spacing: 2px; }
+
+#seventh > .container {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 85px; }
 
 #eighth {
   background: url(../img/form-bg.png) no-repeat center top/cover;
@@ -213,7 +259,8 @@ header {
         letter-spacing: 1px;
         text-transform: uppercase; }
       #eighth > .container .form input[type=submit]:hover {
-        background: #339999; }
+        background: #339999;
+        cursor: pointer; }
 
 #ninth {
   background: #f3f5f8; }
