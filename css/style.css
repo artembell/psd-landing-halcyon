@@ -43,6 +43,18 @@ h4 {
   font-family: GothamRounded Medium;
   color: #333333; }
 
+.underlined_headings h4 {
+  position: relative; }
+
+.underlined_headings h4:before {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  right: 45%;
+  border-bottom: 1px solid #3dc9b3;
+  content: "";
+  border-width: 5px; }
+
 p {
   font-size: 14px;
   font-family: GothamRounded Medium;
@@ -125,12 +137,7 @@ header {
         padding-bottom: 30px;
         padding-top: 50px; }
       #second .services .services_card p {
-        font-size: 14px;
-        margin-top: 30px;
-        color: #999999;
-        font-family: GothamRounded Medium;
-        letter-spacing: 1px;
-        line-height: 1.5em; }
+        margin-top: 30px; }
 
 #third {
   display: flex;
@@ -187,12 +194,7 @@ header {
           padding-bottom: 20px;
           padding-top: 40px; }
         #fifth > .container .features .feature_card p {
-          font-size: 14px;
-          margin-top: 30px;
-          color: #999999;
-          font-family: GothamRounded Medium;
-          letter-spacing: 1px;
-          line-height: 1.5em; }
+          margin-top: 30px; }
 
 #sixth {
   background: #242830; }
@@ -227,23 +229,9 @@ header {
         height: 240px; }
       #seventh > .container .team .team_card h4 {
         padding-bottom: 20px;
-        padding-top: 40px;
-        position: relative; }
-      #seventh > .container .team .team_card h4:after {
-        position: absolute;
-        bottom: 0;
-        left: 45%;
-        right: 45%;
-        border-bottom: 1px solid #3dc9b3;
-        content: "";
-        border-width: 5px; }
+        padding-top: 40px; }
       #seventh > .container .team .team_card p {
-        font-size: 14px;
-        margin-top: 30px;
-        color: #999999;
-        font-family: GothamRounded Medium;
-        letter-spacing: 1px;
-        line-height: 1.5em; }
+        margin-top: 30px; }
 
 #eighth {
   background: url(../img/form-bg.png) no-repeat center top/cover;
@@ -308,9 +296,6 @@ header {
         margin-bottom: 20px; }
       #ninth .contacts .contact_card h4 {
         margin-bottom: 30px; }
-      #ninth .contacts .contact_card p {
-        font-family: GothamRounded Medium;
-        color: #8c9398; }
 
 footer {
   background: #242830; }
