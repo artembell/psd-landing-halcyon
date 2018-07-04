@@ -2,10 +2,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	//border: 1px solid red;
+	border: 1px solid red;
 }
 
 body{
+	color: red;
 	li{
 		list-style: none;
 	}
@@ -99,7 +100,7 @@ header{
 		height: 100%;
 	}
 
-	.navbar{
+	.heading{
 		li{
 			text-align: right;
 		}
@@ -557,3 +558,18 @@ footer{
 	}
 }
 
+.heading{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.heading .navbar{
+	display: flex;
+	flex-direction: row;
+}
+.heading .navbar li{
+	font-size: 18px;
+	margin-left: 30px;
+	text-transform: uppercase;
+}

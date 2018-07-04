@@ -1,56 +1,50 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: 1px solid red; }
 
-body li {
-  list-style: none; }
-
-body a {
-  text-decoration: none; }
-
-body input:focus {
-  outline: none; }
-
-body p {
-  font-size: 14pt;
-  font-family: GothamRounded Medium;
-  color: #8c9398;
-  line-height: 1.3em; }
-
-body h1 {
-  font-size: 40pt;
-  font-family: GothamRounded Book;
-  text-transform: uppercase;
-  letter-spacing: 10px; }
-
-body h4 {
-  font-size: 15pt;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: GothamRounded Medium;
-  color: #333333; }
-
-body .container {
-  width: 71%;
-  margin: 0 auto; }
-
-body .bx-wrapper {
-  -moz-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important; }
-
-body .underlined_headings h4 {
-  position: relative; }
-
-body .underlined_headings h4:before {
-  position: absolute;
-  bottom: 0;
-  left: 45%;
-  right: 45%;
-  border-bottom: 1px solid #3dc9b3;
-  content: "";
-  border-width: 5px; }
+body {
+  color: red; }
+  body li {
+    list-style: none; }
+  body a {
+    text-decoration: none; }
+  body input:focus {
+    outline: none; }
+  body p {
+    font-size: 14pt;
+    font-family: GothamRounded Medium;
+    color: #8c9398;
+    line-height: 1.3em; }
+  body h1 {
+    font-size: 40pt;
+    font-family: GothamRounded Book;
+    text-transform: uppercase;
+    letter-spacing: 10px; }
+  body h4 {
+    font-size: 15pt;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: GothamRounded Medium;
+    color: #333333; }
+  body .container {
+    width: 71%;
+    margin: 0 auto; }
+  body .bx-wrapper {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+  body .underlined_headings h4 {
+    position: relative; }
+  body .underlined_headings h4:before {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    right: 45%;
+    border-bottom: 1px solid #3dc9b3;
+    content: "";
+    border-width: 5px; }
 
 @font-face {
   font-family: 'GothamRounded Book';
@@ -70,7 +64,7 @@ header {
   header > .container {
     padding-top: 60px;
     height: 100%; }
-  header .navbar li {
+  header .heading li {
     text-align: right; }
   header .main {
     margin-top: 170px;
@@ -359,3 +353,18 @@ footer {
         footer > .container .info .designed span:last-child {
           color: #a1a9b0;
           font-family: GothamRounded MediumItalic; }
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+.heading .navbar {
+  display: flex;
+  flex-direction: row; }
+
+.heading .navbar li {
+  font-size: 18px;
+  margin-left: 30px;
+  text-transform: uppercase; }
