@@ -190,7 +190,7 @@ header {
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative; }
-    #fifth > .container .close {
+    #fifth > .container .close1 {
       position: absolute;
       top: -31px;
       left: 47.5%;
@@ -306,7 +306,7 @@ header {
     padding-top: 125px;
     padding-bottom: 110px;
     position: relative; }
-    #ninth > .container .close {
+    #ninth > .container .close2 {
       position: absolute;
       top: -31px;
       left: 47.5%;
