@@ -279,6 +279,19 @@ header{
 	> .container{
 		padding-top: 100px;
 		padding-bottom: 100px;
+		position: relative;
+
+		.close{
+			position: absolute;
+			top: -31px;
+			left: 47.5%;
+			margin: 0 auto;
+			padding: 21px 20px;
+			background: #3dc9b3;
+			border-radius: 50%;
+			border: none;
+		}
+
 
 		.features{
 			display: flex;
@@ -391,13 +404,15 @@ header{
 	background-position: 10% 48%;
 
 	> .container{
-		padding-top: 115px;
-		padding-bottom: 155px;
+		// padding-top: 115px;
+		// padding-bottom: 155px;
 
 		.form{
 			text-align: center;
 			width: 80%;
 			margin: 0 auto;
+			padding-top: 115px;
+			padding-bottom: 155px;
 
 			h4{
 				
@@ -446,6 +461,18 @@ header{
 		text-align: center;
 		padding-top: 125px;
 		padding-bottom: 110px;
+		position: relative;
+
+		.close{
+			position: absolute;
+			top: -31px;
+			left: 47.5%;
+			margin: 0 auto;
+			padding: 21px 20px;
+			background: #3dc9b3;
+			border-radius: 50%;
+			border: none;
+		}
 
 		.icons{
 			margin-top: 100px;
@@ -529,3 +556,4 @@ footer{
 		}
 	}
 }
+

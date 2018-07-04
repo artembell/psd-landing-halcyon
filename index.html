@@ -6,21 +6,9 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-	<script>
-    $(document).ready(function(){
-      $('.slider').bxSlider({
-		  speed: 2000,
-		  slideMargin: 200,
-		  controls: false,
-		  auto: false,
-		  pause: 5000,
-		  autoHover: true,
-		  startSlide: 0
-      });
-    });
-  </script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script src="scripts/script.js"></script>
 </head>
 <body>
 	
@@ -120,6 +108,7 @@
 
 	<section id="fifth">
 		<div class="container">
+		<a class="close" href="#" onclick="hideit('#fourth'); return false"><img id="shit" src="img/close-btn-up.png" alt="up"></a>
 			<div class="slider underlined_headings ">
 			    <div class="features">
 			    	<div class="feature_card">
@@ -320,6 +309,7 @@
 
 	<section id="ninth">
 		<div class="container">
+			<a class="close" href="#" onclick="hideit('#eighth'); return false"><img id="shit" src="img/close-btn-up.png" alt="up"></a>
 			<div class="title">
 				<h4>Drop Us A Line</h4>
 				<hr>
