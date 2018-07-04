@@ -3,11 +3,54 @@
   padding: 0;
   box-sizing: border-box; }
 
-li {
+body li {
   list-style: none; }
 
-a {
+body a {
   text-decoration: none; }
+
+body input:focus {
+  outline: none; }
+
+body p {
+  font-size: 14pt;
+  font-family: GothamRounded Medium;
+  color: #8c9398;
+  line-height: 1.3em; }
+
+body h1 {
+  font-size: 40pt;
+  font-family: GothamRounded Book;
+  text-transform: uppercase;
+  letter-spacing: 10px; }
+
+body h4 {
+  font-size: 15pt;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: GothamRounded Medium;
+  color: #333333; }
+
+body .container {
+  width: 71%;
+  margin: 0 auto; }
+
+body .bx-wrapper {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+body .underlined_headings h4 {
+  position: relative; }
+
+body .underlined_headings h4:before {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  right: 45%;
+  border-bottom: 1px solid #3dc9b3;
+  content: "";
+  border-width: 5px; }
 
 @font-face {
   font-family: 'GothamRounded Book';
@@ -21,52 +64,12 @@ a {
   font-family: 'GothamRounded Medium';
   src: url(../fonts/GothamRounded-Medium.otf); }
 
-.container {
-  width: 71%;
-  margin: 0 auto; }
-
-.bx-wrapper {
-  -moz-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important; }
-
-h1 {
-  font-size: 40px;
-  font-family: GothamRounded Book;
-  text-transform: uppercase;
-  letter-spacing: 10px; }
-
-h4 {
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: GothamRounded Medium;
-  color: #333333; }
-
-.underlined_headings h4 {
-  position: relative; }
-
-.underlined_headings h4:before {
-  position: absolute;
-  bottom: 0;
-  left: 45%;
-  right: 45%;
-  border-bottom: 1px solid #3dc9b3;
-  content: "";
-  border-width: 5px; }
-
-p {
-  font-size: 14px;
-  font-family: GothamRounded Medium;
-  color: #8c9398;
-  letter-spacing: 1px;
-  line-height: 2em; }
-
 header {
   background: url(../img/bg.png) no-repeat center top/cover;
   height: 100vh; }
   header > .container {
-    padding-top: 60px; }
+    padding-top: 60px;
+    height: 100%; }
   header .navbar li {
     text-align: right; }
   header .main {
@@ -78,7 +81,7 @@ header {
     header .main .days {
       color: #999999; }
     header .main > p {
-      font-size: 15px;
+      font-size: 15pt;
       font-family: GothamRounded Book;
       color: #999999;
       margin-bottom: 95px;
@@ -86,7 +89,7 @@ header {
     header .main .for {
       font-family: GothamRounded MediumItalic; }
     header .main > a {
-      font-size: 15px;
+      font-size: 15pt;
       color: #fff;
       font-family: GothamRounded Medium;
       text-transform: uppercase;
@@ -120,6 +123,8 @@ header {
   #first > .container {
     padding-top: 105px;
     padding-bottom: 130px; }
+    #first > .container p {
+      line-height: 2em !important; }
 
 #second {
   text-align: center;
@@ -135,23 +140,27 @@ header {
       width: 30%; }
       #second .services .services_card h4 {
         padding-bottom: 30px;
-        padding-top: 50px; }
+        padding-top: 50px;
+        letter-spacing: 1px !important; }
       #second .services .services_card p {
         margin-top: 30px; }
 
 #third {
   display: flex;
   flex-direction: row; }
-  #third > div {
-    width: 50%; }
   #third .iphone {
-    background: url(../img/iphone.png) no-repeat 350px 0px, #f3f5f8; }
+    background: url(../img/iphone.png) no-repeat 350px 50px, #f3f5f8;
+    width: 47%; }
   #third .text {
     text-align: center;
     padding-top: 130px;
     padding-bottom: 130px;
-    padding-left: 2%;
-    padding-right: 8%; }
+    padding-left: 6%;
+    padding-right: 16%;
+    width: 53%; }
+    #third .text p {
+      margin-bottom: 30px;
+      text-align: justify; }
 
 #fourth {
   background: url(../img/bg-problems.png) no-repeat center top/cover;
@@ -164,12 +173,12 @@ header {
     font-family: GothamRounded Book;
     text-transform: uppercase; }
     #fourth > .container h2 {
-      font-size: 40px;
+      font-size: 40pt;
       font-weight: normal;
       letter-spacing: 7px;
       margin-bottom: 25px; }
     #fourth > .container h3 {
-      font-size: 25px;
+      font-size: 25pt;
       font-weight: normal;
       letter-spacing: 7px; }
     #fourth > .container span {
@@ -185,7 +194,7 @@ header {
       flex-direction: row;
       justify-content: space-between; }
       #fifth > .container .features .feature_card {
-        width: 30%;
+        width: 32%;
         text-align: center; }
         #fifth > .container .features .feature_card img {
           min-width: 100%;
@@ -209,7 +218,7 @@ header {
       border: 2px solid white;
       border-radius: 2px;
       padding: 30px 40px;
-      font-size: 15px;
+      font-size: 15pt;
       text-transform: uppercase;
       letter-spacing: 2px; }
 
@@ -222,9 +231,9 @@ header {
     flex-direction: row;
     justify-content: space-between; }
     #seventh > .container .team .team_card {
-      width: 30%;
+      width: 32%;
       text-align: center; }
-      #seventh > .container .team .team_card img {
+      #seventh > .container .team .team_card > img {
         margin: 0 auto;
         height: 240px; }
       #seventh > .container .team .team_card h4 {
@@ -232,6 +241,15 @@ header {
         padding-top: 40px; }
       #seventh > .container .team .team_card p {
         margin-top: 30px; }
+      #seventh > .container .team .team_card .icons {
+        margin-top: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 30px; }
+        #seventh > .container .team .team_card .icons .mid {
+          margin-right: 10px;
+          margin-left: 10px; }
 
 #eighth {
   background: url(../img/form-bg.png) no-repeat center top/cover;
@@ -248,7 +266,7 @@ header {
         margin-top: 20px;
         margin-bottom: 45px; }
       #eighth > .container .form input[type=text] {
-        font-size: 15px;
+        font-size: 15pt;
         font-family: GothamRounded Medium;
         background-color: transparent;
         padding: 30px 25px;
@@ -257,7 +275,7 @@ header {
         width: 40%; }
       #eighth > .container .form input[type=submit] {
         margin-left: 10px;
-        font-size: 15px;
+        font-size: 15pt;
         color: white;
         background: #3dc9b3;
         box-shadow: 0px -3px 0px #339999 inset;
@@ -278,24 +296,27 @@ header {
     text-align: center;
     padding-top: 125px;
     padding-bottom: 110px; }
-  #ninth .icons {
-    margin-top: 100px; }
-  #ninth .mid {
-    margin-right: 20px;
-    margin-left: 20px; }
-  #ninth .contacts {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-    #ninth .contacts .contact_card {
-      background: #fff;
-      width: 30%;
-      padding-top: 30px;
-      padding-bottom: 30px; }
-      #ninth .contacts .contact_card img {
-        margin-bottom: 20px; }
-      #ninth .contacts .contact_card h4 {
-        margin-bottom: 30px; }
+    #ninth > .container .icons {
+      margin-top: 100px; }
+    #ninth > .container .mid {
+      margin-right: 20px;
+      margin-left: 20px; }
+    #ninth > .container .contacts {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      #ninth > .container .contacts .contact_card {
+        background: #fff;
+        width: 32%;
+        padding-top: 30px;
+        padding-bottom: 30px; }
+        #ninth > .container .contacts .contact_card img {
+          margin-bottom: 20px; }
+        #ninth > .container .contacts .contact_card h4 {
+          margin-bottom: 30px;
+          color: #3dc9b3; }
+      #ninth > .container .contacts .contact_card:last-child > p {
+        color: black; }
 
 footer {
   background: #242830; }
