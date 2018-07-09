@@ -44,12 +44,12 @@ function hideit(objName){
 
 function animateIcon(obj) {
     obj.classList.toggle("change");
+
+    //$('.navbar').animate({width: 'toggle'}, 1000);
     var elems = document.querySelectorAll(".navbar li:not(:last-child)");
 
     elems.forEach(function(item, index) {
-  //   	item.animate({
-		// 	right: 0
-		// }, 400);
+    	//item.animate({width:'toggle'}, 350) 
 		item.classList.toggle("hidden");
 
 	});
