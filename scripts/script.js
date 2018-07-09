@@ -41,3 +41,17 @@ function hideit(objName){
 		
 	}
 };
+
+function animateIcon(obj) {
+    obj.classList.toggle("change");
+    var elems = document.querySelectorAll(".navbar li:not(:last-child)");
+
+    elems.forEach(function(item, index) {
+  //   	item.animate({
+		// 	right: 0
+		// }, 400);
+		item.classList.toggle("hidden");
+
+	});
+
+}

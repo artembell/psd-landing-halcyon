@@ -17,11 +17,17 @@
 			<div class="heading">
 				<nav>
 					<ul class="navbar">
-						<li><a class="active" href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Contact</a></li>
-						<li class="burger"><img width="40px" height="40px" src="img/burger.png" alt="burger"></li>
+						<li class="hidden"><a class="active" href="#">Home</a></li>
+						<li class="hidden"><a href="#">About</a></li>
+						<li class="hidden"><a href="#">Services</a></li>
+						<li class="hidden"><a href="#">Contact</a></li>
+						<li class="burger">
+							<div class="container" onclick="animateIcon(this)">
+								<div class="bar1"></div>
+								<div class="bar2"></div>
+								<div class="bar3"></div>
+							</div>
+							<!--<img width="40px" height="40px" src="img/burger.png" alt="burger">--></li>
 					</ul>
 				</nav>
 			</div>
